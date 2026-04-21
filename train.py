@@ -81,11 +81,11 @@ def set_version_config(version):
         CLS_WEIGHT = 1.0
         BBOX_WEIGHT = 3.0
         GIOU_WEIGHT = 4.0
-        NO_OBJ_COEF = 0.3
+        NO_OBJ_COEF = 0.2
         MATCH_CLS = 2.0
         MATCH_L1 = 2.0
         MATCH_GIOU = 5.0
-        INFER_THRESHOLD = 0.05
+        INFER_THRESHOLD = 0.3
 
 
 # ──────────────────────── Box Utilities ────────────────────────
